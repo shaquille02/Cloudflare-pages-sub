@@ -4,20 +4,16 @@
 let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
-let addresses = [
-];
+let addresses = [];
 
 // 设置优选地址api接口
-let addressesapi = [
-];
+let addressesapi = [];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
-let addressesnotls = [
-];
+let addressesnotls = [];
 
 // 设置优选noTLS地址api接口
-let addressesnotlsapi = [
-];
+let addressesnotlsapi = [];
 
 let DLS = 10;//速度下限
 let addressescsv = [
